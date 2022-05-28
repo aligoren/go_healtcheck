@@ -17,7 +17,7 @@ ENDPOINT="/healthcheck"
 
 ## Creating Custom Provider
 
-Create a file under `providers` folder. For example, we want to create a provider called postgresql.
+Create a file under `cmd/providers` folder. For example, we want to create a provider called postgresql.
 
 ```go
 package providers
