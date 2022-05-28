@@ -2,6 +2,19 @@
 
 This is an example project to check services such as PostgresSQL, websites, .etc
 
+## Config
+
+There are two default config keys and they should be placed in the .env file
+
+```dotenv
+PORT=":8080"
+ENDPOINT="/healthcheck"
+```
+
+**PORT:** The port to run Fiber
+
+**ENDPOINT:** The endpoint to show health check data.
+
 ## Creating Custom Provider
 
 Create a file under `providers` folder. For example, we want to create a provider called postgresql.
